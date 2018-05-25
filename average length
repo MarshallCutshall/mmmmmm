@@ -1,0 +1,6 @@
+function computeAverageLengthOfWords(word1, word2) {
+  // your code here
+  var x= (word1.length+word2.length)/2
+  return(x)
+}
+computeAverageLengthOfWords('code','programs');
