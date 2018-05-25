@@ -1,0 +1,16 @@
+
+var car = prompt("What type of car do you have?");
+switch (car){
+  case "BMW":
+    car = "German car";
+    break;
+  case "Ford":
+    car = "American Car";
+    break;
+  case "Peugeot":
+    car = "French car";
+    break;
+  default:
+    car = "Unkown car name"
+}
+console.log(car);
